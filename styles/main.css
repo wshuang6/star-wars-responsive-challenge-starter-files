@@ -1,8 +1,21 @@
 .card {
 	border: 1px lightgray solid;
-	height: 400px;
+	margin-top: 20px;
 }
 
 .card img {
 	width: 100%;
+}
+
+.card p {
+	padding-left: 20px;
+}
+
+.boldMe {
+	font-weight: bold;
+}
+
+.header {
+	background-color: gold;
+	margin-bottom: 20px;
 }

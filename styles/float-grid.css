@@ -18,3 +18,18 @@ box-sizing: border-box;
 	clear: both;
 }
 
+.col-4, .col-12 {
+	float: left;
+	padding-left: 1.04166666666%;
+	padding-right: 1.04166666666%;
+	width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+	.col-4 {
+		width: 33.33333333%;
+	}
+	.col-12 {
+		width: 100%;
+	}
+}
